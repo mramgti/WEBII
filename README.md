@@ -12,7 +12,4 @@
 
 ## - Exercícios Práticos
 
-## - [Lista de Exercícios 01](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX1)
-
-* ### [Código Fonte - Index (HTML)](https://github.com/mramgti/webii/blob/main/Exerc%C3%ADcios/EX1/index.html)
-* ### [Código Fonte - Cálculo da Média (PHP)](https://github.com/mramgti/webii/blob/main/Exerc%C3%ADcios/EX1/media.php)
+## - [Exercício 01](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX1)
