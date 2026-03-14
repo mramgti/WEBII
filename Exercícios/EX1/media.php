@@ -18,7 +18,7 @@
      $media = (($nota1*$peso1) + ($nota2*$peso2) + ($nota3*$peso3)) / ($peso1+$peso2+$peso3);
      
      //echo "A média ponderada é:" .$media;
-     echo "<p class='result'>".number_format($media, 1, "," ,".")."</p>";
+     echo "<h1> A média ponderada é: ".number_format($media, 1, "," ,".")."</h1>";
      
      
     ?> 
