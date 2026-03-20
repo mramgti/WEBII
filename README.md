@@ -14,6 +14,6 @@
 
 ## - [Exercício 01](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX1)
 
-## - [Exercício 01](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX2)
+## - [Exercício 02](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX2)
 
-## - [Exercício 01](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX3)
+## - [Exercício 03](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX3)
