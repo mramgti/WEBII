@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh; /* vh = altura visível*/
+    width: 100vw; /* vw = largura visível*/
+    background-color: bisque; /*cor de plano de fundo*/
+}
+
+.conteudo{
+    background-color: burlywood;
+    color: #333; /* cor da fonte*/
+    border: solid 2px #333;
+    width: 300px; /* largura do formulário*/
+    padding: 15px; /*distância dentro do elemento*/
+    margin: 30px auto;
+}
