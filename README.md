@@ -9,6 +9,7 @@
 
 ## - [Aula 03 - Estruturas Condicionais](https://github.com/mramgti/webii/blob/main/Slides/3.%20Estruturas%20condicionais.pdf)
 
+## - [Aula 04 - Laços de Repetição](https://github.com/mramgti/webii/blob/main/Slides/4.%20La%C3%A7os%20de%20repeti%C3%A7%C3%A3o.pdf)
 
 ## - Exercícios Práticos
 
@@ -17,3 +18,5 @@
 ## - [Exercício 02](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX2)
 
 ## - [Exercício 03](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX3)
+
+## - [Exercícios Condicionais](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/Condicionais)
