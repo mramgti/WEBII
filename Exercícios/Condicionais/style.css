@@ -1,0 +1,107 @@
+/* style.css - Folha de estilos comentada para fins didáticos */
+
+/* O seletor 'body' aplica estilos a todo o corpo da página (o fundo do ecrã) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a tipografia (fonte) principal do texto */
+    background-color: #f4f7f6; /* Aplica uma cor de fundo cinza muito clara para a página inteira */
+    color: #333; /* Define a cor padrão do texto como um cinza escuro, facilitando a leitura */
+
+    /* Utilização do Flexbox para centralizar a nossa área de conteúdo perfeitamente no ecrã */
+    display: flex; /* Transforma o corpo da página num contentor flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos 100% da altura da janela visível (viewport height) */
+
+    margin: 0; /* Remove as margens exteriores padrão aplicadas pelo navegador */
+    padding: 20px; /* Adiciona um espaço de respiro para que a caixa não toque nas bordas em ecrãs mais pequenos (como num telemóvel) */
+    box-sizing: border-box; /* Garante que as margens internas (padding) não aumentem a largura total da página */
+}
+
+/* A classe '.container' é a "caixa" central que envolve o nosso formulário e os resultados do PHP */
+.container {
+    background-color: #ffffff; /* Fundo totalmente branco para dar contraste em relação ao fundo cinza da página */
+    padding: 30px; /* Espaço interno entre a borda da caixa e os elementos dentro dela (textos, botões) */
+    border-radius: 10px; /* Suaviza a caixa com cantos arredondados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Cria uma sombra ligeira à volta da caixa, dando um efeito 3D de profundidade */
+    width: 100%; /* Faz a caixa tentar ocupar toda a largura que puder... */
+    max-width: 450px; /* ...mas impede que ultrapasse os 450 píxeis, mantendo um tamanho compacto e elegante num ecrã de computador */
+}
+
+/* Estilização do título principal da página (H2) */
+h2 {
+    color: #2c3e50; /* Uma cor azul-escura e sóbria para o título */
+    text-align: center; /* Centraliza o texto do título */
+    margin-top: 0; /* Remove a margem superior para colar o título perto do topo da nossa caixa branca */
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título, para o separar visualmente do formulário */
+}
+
+/* Comportamento do próprio formulário */
+form {
+    display: flex; /* Volta a utilizar o Flexbox para arrumar os itens internos */
+    flex-direction: column; /* Organiza os campos (label, input, button) numa coluna vertical, um debaixo do outro */
+}
+
+/* Estilização das etiquetas (textos de instrução acima dos campos) */
+label {
+    font-weight: bold; /* Coloca o texto a negrito */
+    margin-bottom: 8px; /* Dá um pequeno espaço entre a etiqueta e o respetivo campo de texto */
+    color: #34495e; /* Uma cor ligeiramente mais clara que o título */
+}
+
+/* Estilização conjunta dos campos de digitação numérica e do menu suspenso (select) */
+input[type="number"], select {
+    padding: 10px; /* Dá espaço interno para que o texto digitado não fique esmagado contra as bordas */
+    margin-bottom: 20px; /* Espaço para separar este campo do elemento seguinte (como o botão) */
+    border: 1px solid #ccd1d1; /* Desenha uma borda fina cinza à volta do campo */
+    border-radius: 5px; /* Cantos arredondados, em harmonia com o estilo da caixa principal */
+    font-size: 16px; /* Um tamanho de letra confortável, que também evita que os telemóveis façam zoom automático ao focar no campo */
+    width: 100%; /* Faz o campo esticar até preencher toda a largura disponível na caixa */
+    box-sizing: border-box; /* Impede que a borda e o preenchimento quebrem a largura de 100% */
+}
+
+/* Estilização do botão de submissão do formulário */
+button {
+    background-color: #3498db; /* Define a cor de fundo do botão como um tom de azul vibrante */
+    color: white; /* Letra do botão a branco para máximo contraste */
+    padding: 12px; /* Deixa o botão mais largo e fácil de clicar */
+    border: none; /* Remove a borda feia que os navegadores colocam por defeito nos botões */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold; /* Texto a negrito para dar destaque à ação */
+    cursor: pointer; /* Muda o ícone do rato para uma "mãozinha" quando passa por cima, indicando que é clicável */
+    transition: background-color 0.3s ease; /* Cria um efeito de transição suave de 0.3 segundos quando a cor de fundo é alterada */
+}
+
+/* Estado de "hover": como o botão reage quando o rato passa por cima */
+button:hover {
+    background-color: #2980b9; /* Escurece ligeiramente o botão, dando retorno visual imediato ao utilizador */
+}
+
+/* Estilização da linha horizontal (Horizontal Rule - HR) que divide o formulário da resposta */
+hr {
+    border: 0; /* Remove a moldura padrão */
+    height: 1px; /* Define uma espessura muito fina para a linha */
+    background: #ecf0f1; /* Cor da linha (um cinza muito claro) */
+    margin: 25px 0; /* Define um espaçamento vertical generoso de 25px em cima e em baixo, e 0 nas laterais */
+}
+
+/* Bloco específico para mostrar o resultado gerado pelo processamento do PHP */
+.resultado {
+    background-color: #e8f8f5; /* Um verde extremamente claro para destacar o fundo da área de resposta */
+    border-left: 5px solid #1abc9c; /* Cria uma barra vertical de cor verde sólida à esquerda, dando um aspeto de "citação" ou painel de aviso */
+    padding: 15px; /* Espaçamento interno da área de resposta */
+    border-radius: 4px; /* Arredondamento suave */
+    line-height: 1.5; /* Aumenta o espaço entre as linhas de texto para tornar as frases lidas mais confortavelmente */
+}
+
+/* Classe utilitária para chamar a atenção em caso de erros ou avisos importantes */
+.alerta-erro {
+    color: #c0392b; /* Texto a vermelho forte */
+    font-weight: bold; /* Texto a negrito */
+}
+
+/* Classe utilitária para mensagens positivas e de sucesso */
+.alerta-sucesso {
+    color: #27ae60; /* Texto a verde escuro */
+    font-weight: bold; /* Texto a negrito */
+}
