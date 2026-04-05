@@ -22,3 +22,9 @@
 ## - [Exercícios Condicionais](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/Condicionais)
 
 ## - [Exercício 04](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX4)
+
+## - [Exercício 05](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX5)
+
+## - [Exercício 06](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX6)
+
+## - [Exercício 07](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX7)
