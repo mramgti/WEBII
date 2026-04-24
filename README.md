@@ -28,3 +28,5 @@
 ## - [Exercício 06](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX6)
 
 ## - [Exercício 07](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX7)
+
+## - [Vetor](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/Vetor)
