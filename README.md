@@ -29,4 +29,10 @@
 
 ## - [Exercício 07](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX7)
 
+## - [Exercício 08](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX8)
+
+## - [Exercício 09](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX9)
+
+## - [Prova - Solução](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/Prova)
+
 ## - [Vetor](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/Vetor)
