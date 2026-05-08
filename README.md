@@ -33,6 +33,10 @@
 
 ## - [Exercício 09](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX9)
 
+## - [Exercício 10](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX10)
+
+## - [Exercício 11](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/EX11)
+
 ## - [Prova - Solução](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/Prova)
 
 ## - [Vetor](https://github.com/mramgti/webii/tree/main/Exerc%C3%ADcios/Vetor)
